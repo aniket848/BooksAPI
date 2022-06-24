@@ -1,0 +1,11 @@
+const mongoose  = require('mongoose');
+
+const DB = process.env.DATABASE;
+
+ mongoose.connect('mongodb+srv://aniketm580:komal.com@cluster0.2dah3xp.mongodb.net/?retryWrites=true&w=majority' ,{
+ }).then(()=>{
+     console.log('connection successful');
+ }).catch((err)=>{
+     console.log(err);
+     console.log("not connection successful");
+ });
