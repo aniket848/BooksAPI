@@ -1,0 +1,32 @@
+.book{
+    width:250px;
+    height:auto;
+    padding:5px 7px;
+    margin:1rem 1.3rem;
+    position: relative;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.image{
+    /* margin:5px; */
+    order:1;
+    width:90%;
+    height: 80%;
+    position: relative; 
+}
+
+.heading{
+    font-size:1.3rem;
+    position: relative;
+    order:2;
+    /* top:90%; */
+    border-top: 1px solid black;
+}
+
+.amount{
+    order:3;
+    font-size:1rem;
+}
